@@ -26,7 +26,6 @@
     </fieldset>
 </form>
 <hr>
-
 <form action="contact.php" method="POST">
   <fieldset>
   <legend>Contact</legend>
@@ -48,7 +47,27 @@
   </fieldset>
 </form>
 <hr>
-
+<form action="contact.php" method="POST">
+    <fieldset>
+    <legend>Form</legend>
+    <p>
+        <label>Alamat Web:</label>
+        <input type="url" name="name" placeholder="Masukan URL Web..." />
+    </p>
+    <p>
+        <label>Tanggal Lahir:</label>
+        <input type="date" name="tanggal" />
+    </p>
+    <p>
+        <label>Umur:</label>
+        <input type="number" min="10" max="90" name="umur" />
+    </p>
+    <p>
+        <input type="submit" name="submit" value="Send" />
+    </p>
+    </fieldset>
+  </form>
+  <hr>
 <form action="contact.php" method="POST">
   <fieldset>
   <legend>Registrasi</legend>
@@ -92,36 +111,13 @@
   </fieldset>
 </form>
 <hr>
-
-<form action="contact.php" method="POST">
-  <fieldset>
-  <legend>Form</legend>
-  <p>
-      <label>Alamat Web:</label>
-      <input type="url" name="name" placeholder="Masukan URL Web..." />
-  </p>
-  <p>
-      <label>Tanggal Lahir:</label>
-      <input type="date" name="tanggal" />
-  </p>
-  <p>
-      <label>Umur:</label>
-      <input type="number" min="10" max="90" name="umur" />
-  </p>
-  <p>
-      <input type="submit" name="submit" value="Send" />
-  </p>
-  </fieldset>
-</form>
-<hr>
-
     <p>Hello Everyone</p>
-    <a href="https://petanikode.com">tutor-Git</a>
-    <h1 title="tutorial HTML untuk pemula">Belajar HTML</h1>
+    <a href="https://petanikode.com">tutor-HTML</a>
+    <h3 title="tutorial HTML untuk pemula">Belajar HTML</h3>
     <input type="text" required="true" />
 <input type="text" required />
 
-<p>Untuk lebih lengkapnya, silahkan buka:
+<p>Untuk lebih lengkapnya, check:
   <br>
   <a href="about.html" style="color:rgb(10, 12, 121)" title="Menuju ke halaman about">About us</a><br>
   <a href="index.html" style="color:rgb(10, 12, 121)">Home</a><br> 
@@ -139,8 +135,17 @@
             saling mendukung. Paragraf dibuat dengan menentukan ide pokok terlebih
             dahulu. Lalu diikuti dengan kalimat-kalimat pendukung.</p>
 
+            <h3>Jenis-Jenis Bahasa Pemrograman Yang dipelajari:</h3>
+            <ul type="square">
+              <li>Javascript</li>
+              <li>PHP</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>Kotlin</li>
+            </ul>
+
             <article>
-              <h1>Laptop Terbaik untuk Programmer</h1>
+              <h3>Laptop Terbaik untuk Programmer</h3>
           
               <details>
                 <summary>Lihat Spesifikasi</summary>
@@ -148,9 +153,7 @@
               </details>
             </article>
             <a href="https://www.facebook.com/petanikode">Facebook Patani Kode</a>
-
     <hr>
-
     <h3>Hujan Bulan Juni</h3>
 <p>oleh Sapardi Djoko Damono</p>
 <pre>
@@ -170,30 +173,6 @@ dibiarkannya yang tak terucapkan
 diserap akar pohon bunga itu
 </pre>
 <hr>
-
-<h3>Font untuk Paragraf</h3>
-
-<p style="font-family: Arial;">Ini adalah contoh paragraf yang
-menggunakan font Arial. Semua teks pada paragraf ini akan menggunakan
-font Arial. Arial adalah salah satu font yang umum digunakan pada
-Windows.</p>
-
-<p style="font-family: 'Times New Roman'">Ini adalah paragraf yang
-menggunakan font Times New Roman. Font ini juga umum digunakan dalam
-penulisan teks. Perhatikan penulisan Times New Roman pada style CSS,
-ia diapit dengan tanda petik karena mengandung lebih dari satu kata.</p>
-<hr>
-
-<h3 style="text-decoration: underline;">Tutorial Membuat Heading di HTML</h3>
-        
-        <p>
-            Heading adalah judul sebuah artikel dan bagian dari artikel.
-            Ada Enam level heading pada HTML, yakni dimulai dari H1,
-            H2, H3, sampai H6.
-        </p>
-
-        <hr>
-
             <h3>Text Miring di HTML</h3>
             <p>
               Gungakan <i>teks miring</i> untuk memberikan penekanan pada teks,
@@ -203,30 +182,18 @@ ia diapit dengan tanda petik karena mengandung lebih dari satu kata.</p>
             </p>
             <hr>
 
-            <h1>Garis Bawah di HTML</h1>
+            <h3>Garis Bawah di HTML</h3>
             <p>
               <u>Text formatting itu penting</u>, karena dapat membuat teks terlihat
               lebih menarik dibandingkan <del>text biasa</del> <ins>plain text</ins>.
             </p>
             <hr>
-
-            <h3>Membuat Pangkat di HTML</h3>
-  <p>
-    Rumus luas persegi adalah S<sup>2</sup>, dimana <i>S</i> adalah sisi dari 
-    persegi. Lalu O<sub>2</sub> adalah rumus kimia dari oksigen.
-  </p>
+            <h3>Pembuatan Pangkat di HTML</h3>
+            <p>
+              Rumus luas persegi adalah S<sup>2</sup>, dimana <i>S</i> adalah sisi dari 
+              persegi. Lalu O<sub>2</sub> adalah rumus kimia dari oksigen.
+            </p>
   <hr>
-
-  <h1>Bahasa Pemrograman untuk dipelajari:</h1>
-  <ul>
-      <li>Javascript</li>
-      <li>PHP</li>
-      <li>Java</li>
-      <li>Python</li>
-      <li>Kotlin</li>
-  </ul>
-  <hr>
-
   <table border="1" cellpadding="10">
     <tr>
         <td>Baris 1 kolom 1</td>
@@ -238,10 +205,9 @@ ia diapit dengan tanda petik karena mengandung lebih dari satu kata.</p>
     </tr>
 </table>
 <hr>
-
 <table border="1">
   <tr>
-      <th rowspan="2" bgcolor="grey">Bulan</th>
+      <th rowspan="2" bgcolor="#3A065D">Bulan</th>
       <th colspan="2" bgcolor="#3A065D">Hasil Panen</th>
   </tr>
   <tr>
@@ -270,7 +236,6 @@ ia diapit dengan tanda petik karena mengandung lebih dari satu kata.</p>
   </tr>
 </table>
 <hr>
-
 <table border="1">
   <tr>
       <th colspan="3" bgcolor="#3A065D">Produk Unggulan</th>
@@ -301,26 +266,12 @@ ia diapit dengan tanda petik karena mengandung lebih dari satu kata.</p>
   </tr>
 </table>
 <hr>
-
-<h3>Pembuatan Vidio Di HTML</h3>
-  <video controls>
+<h3>Pembuatan Video Di HTML</HTML></h3>
+<video controls>
     <source src="cat-herd.webm" type="video/webm" />
     Browsermu tidak mendukung tag ini, upgrade donk!
   </video>
-  <hr>
-
-  <h3>Video Subtitle</h3>
-  <video controls>
-    <source src="cat-herd.webm" type="video/webm"/>
-    <source src="cat-herd.mp4" type="video/mp4"/>
-    <track src="cat-herd-id.vtt" kind="subtitles" srclang="id" label="Indonesia"/>
-  </video>  
-  <hr>
-
-  <h3>Video dari Youtube</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/N7iY-jNWeFc"></iframe>
-  <hr>
-
+<hr>
   <h3>Contoh Audio di Web</h3>
   <audio controls>
     <source src="Ngoni.mp3" type="audio/mpeg">
